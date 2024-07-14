@@ -1,0 +1,60 @@
+body {
+
+    margin: 0%;
+    background: rgb(238, 240, 241);
+    
+    }
+    
+    
+    
+    div { 
+    background: white;
+    width: 550px;
+    padding: 40px  ;
+    height: 390px;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 400px;
+    border-radius: 30px;
+    border:  1px solid black ;
+    max-width: 800px;
+    padding-top: 10px;
+
+       
+    
+    }
+
+    h1{
+      
+     line-height:1.5;   
+     text-align: center;   
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     
+    }
+
+    img{
+
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+    header{ 
+
+        background: black;
+
+
+    }
+  
+    p {
+   
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        font-size: 15px;
+
+    }
