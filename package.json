@@ -1,0 +1,23 @@
+{
+  "name": "welcome",
+  "version": "1.0.0",
+  "description": "Web aplication for register \u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[Duser register with privileges",
+  "main": "./server/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server/server.js",
+    "start": "node ./server/server.js"
+  },
+  "author": "ECorp-Team",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "env": "0.0.2",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4",
+    "standard": "17.1.0"
+  }
+}

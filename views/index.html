@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecorp</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="icon" href="./src/public/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <img src="src/public/Ecopor.jfif" alt="Ecorp Logo" />
+    </header>
+
+    <form id="registerForm">
+        <h1>REGISTER</h1>
+
+        <div class="labels">
+            <div class="register">
+                <label for="fullName">NOMBRE COMPLETO:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Nombre completo" required />
+            </div>
+
+            <div class="register">
+                <label for="username">NOMBRE DE USUARIO:</label>
+                <input type="text" id="username" name="username" placeholder="Nombre de usuario" required />
+            </div>
+
+            <div class="register">
+                <label for="grade">GRADO:</label>
+                <select id="grade" name="grade">
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+            </div>
+
+            <div class="register">
+                <label for="email">CORREO ELECTRONICO:</label>
+                <input type="email" id="email" name="email" placeholder="@correo electronico" required />
+            </div>
+        </div>
+
+        <div class="labels">
+            <div class="register">
+                <label for="role">ROL:</label>
+                <select id="role" name="role">
+                    <option value="moderador">Moderador</option>
+                    <option value="admin_sitio">Administrador del sitio</option>
+                    <option value="admin_bd">Administrador de Bases de datos</option>
+                    <option value="disenador">Diseñador Grafico</option>
+                    <option value="frontend">Front End</option>
+                    <option value="backend">Back End</option>
+                </select>
+            </div>
+
+            <div class="register">
+                <label for="password">CONTRASEÑA:</label>
+                <input type="password" id="password" name="password" placeholder="***********" required />
+            </div>
+
+            <div class="register">
+                <label for="confirmPassword">CONFIRMAR CONTRASEÑA:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="**********" required />
+            </div>
+
+            <div class="register">
+                <button type="submit" class="commit-btn">Commit</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="./src/js/sendData.js"></script>
+</body>
+</html>
