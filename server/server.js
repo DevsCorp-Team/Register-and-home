@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(cwd(), './views/index.html'));
 })
 
+app.get('/home', (req, res) => {
+    res.sendFile(path.join(cwd(), './views/home.html'));
+})
+
 app.listen(PORT, () => {
     console.log(`Server Runnig in ${PORT} port`)
 })
