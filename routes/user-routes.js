@@ -3,7 +3,10 @@ import { Router } from "express";
 const router = Router()
 
 router.post('/create', (req, res) => {
-    res.json(req.body)
+    const { fullName, username, grade, email, password } = req.body
+    res.json({
+        "message": "User Registed"
+    })
 })
 
 export default router

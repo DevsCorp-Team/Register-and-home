@@ -7,4 +7,3 @@ export function routerApi(app) {
     app.use('/api', router)
     router.use('/user', userRouter)
 }
-

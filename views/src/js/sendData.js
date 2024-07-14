@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const responseData = await response.json();
-            console.log('Respuesta del servidor:', responseData);
+            console.log(responseData);
+            window.location.href = "https://google.com"
             // Aquí puedes manejar la respuesta del servidor como sea necesario
         } catch (error) {
             console.error('Error:', error.message);
