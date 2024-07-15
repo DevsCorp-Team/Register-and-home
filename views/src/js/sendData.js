@@ -22,16 +22,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 body: JSON.stringify(formDataJSON)
             });
 
+            const responseData = await response.json();
+
             if (!response.ok) {
-                throw new Error('Error al enviar los datos');
+                throw new Error(responseData.message || 'Unknown error occurred');
             }
 
-            const responseData = await response.json();
             console.log(responseData);
-            window.location.href = "localhos:3000/home"
+            window.location.href = "http://localhost:3000/home";
             // Aquí puedes manejar la respuesta del servidor como sea necesario
         } catch (error) {
-            console.error('Error:', error.message);
+            console.error('Error:', error.message || error);
             // Manejar el error aquí
         }
     });
