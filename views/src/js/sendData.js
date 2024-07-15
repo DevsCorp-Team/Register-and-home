@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             console.log(responseData);
-            window.location.href = "http://localhost:3000/home";
+            window.location.href = "https://register-q25e.onrender.com/home";
             // Aquí puedes manejar la respuesta del servidor como sea necesario
         } catch (error) {
             console.error('Error:', error.message || error);
