@@ -115,9 +115,17 @@
     margin: 10px 0;
   }
 
+  #alert-container {
+    position: fixed;
+    top: 10%;
+    right: 20px;
+    width: auto;
+    height: 30px;
+}
+
   @media screen and (max-width: 768px) {
     form {
-      margin-top: 200px;
+      margin-top: 5%;
       max-width: 90%;
     }
 
@@ -128,4 +136,9 @@
     .labels {
       width: 100%;
     }
+    #alert-container {
+      top: 100px;
+      right: 2px;
+      height: 20px;
+  }
   }
